@@ -1,0 +1,196 @@
+/*css file*/
+/*colors */
+/*primary orange: #ff6c00 */
+/*gradient dark: #00a5ee */
+/*gradient light: #00d9f8 */
+/*gray: #898989 */
+/**/
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+  	color: black;
+ 
+}
+a{
+	background: #00d9f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00d9f8 0%, #00a5ee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00d9f8), color-stop(100%,#00a5ee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00d9f8 0%,#00a5ee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00d9f8 0%,#00a5ee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00d9f8 0%,#00a5ee 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00d9f8 0%,#00a5ee 100%); /* W3C */
+	f
+	text-decoration: none;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 40px;
+
+}
+
+img{
+	display: block;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.site_header{
+	display: block;
+}
+
+#logo{
+	display: inline-block;
+	width: 10%;
+	margin:0;
+	padding:0;
+	vertical-align: middle;
+}
+
+.main_navigation{
+	display: inline-block;
+	width: 85%;
+	vertical-align: middle;
+}
+
+.main_navigation ul{
+	list-style: none;
+	display: block;
+}
+
+.main_navigation li{
+	display: inline-block;
+}
+
+.main_navigation a{
+	display:block;
+	text-decoration:none;
+	border-radius:5px;
+	text-align:center;
+	padding: 20px;
+	margin-left: 10px;
+}
+
+.class_image{
+	
+	display:block;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	background: url(../img/class.png);
+}
+
+.courses{
+	display: block;
+	border-top: 1px, solid;
+	padding-top: 20px;
+
+
+}
+
+.courses section{
+	
+	margin-top:100px;
+	vertical-align: top;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	margin-left: 5px;
+
+}
+
+.courses img{
+
+	height: 100px;
+	margin: 0 auto;
+}
+
+
+
+
+.applications{
+	border-top: 1px solid;
+
+	display: block;
+	background: url(../img/applications.png);
+	
+}
+
+.about{
+	text-align: center;
+}
+	
+
+}
+
+.about h1{
+	font-style:bold;
+}
+
+.about p{
+	font-weight:lighter;
+	font-style:italic;
+	
+}
+
+.who{
+	display: block;
+	margin: 0, auto;
+
+}
+
+
+
+.who h2{
+	font-style: bold;
+	margin:5px;
+
+}
+
+.who p{
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.people-centric{
+	display:inline-block;
+	width:45%;
+	vertical-align: top;
+	padding-right:2%;
+}
+
+.challenge{
+	display:inline-block;
+	width:45%;
+	vertical-align: top;
+	padding-right:2%;
+}
+footer{
+	padding-left: 35%;
+	background-color: #ff6c00;
+	display:block;
+}
+footer 
+
+footer ul{
+	
+	color: white;
+	list-style:none;
+	display:block;
+}
+
+footer li{
+	display:inline-block;
+	text-decoration:none;
+	
+}
+
+footer a{
+	text-decoration:none;
+	color: white;
+}
+
