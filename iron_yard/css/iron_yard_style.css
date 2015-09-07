@@ -5,6 +5,20 @@
 /*gradient light: #00d9f8 */
 /*gray: #898989 */
 /**/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
 
 body{
     background: white;
@@ -51,7 +65,7 @@ img{
 }
 
 #logo{
-	display: inline-block;
+	float:left;
 	width: 10%;
 	margin:0;
 	padding:0;
@@ -59,9 +73,11 @@ img{
 }
 
 .main_navigation{
-	display: inline-block;
-	width: 85%;
+	float:left;	
+	width: 90%;
 	vertical-align: middle;
+	padding:0;
+	margin:0;
 }
 
 .main_navigation ul{
@@ -94,7 +110,7 @@ img{
 	display:block;
 	border-radius:5px 5px 5px 5px;
 	padding-bottom:5px;
-	margin-top: 10px;
+	margin-top: 30px;
 	padding-top: 10px;
 	background: url(../img/class.png);
 	height: 300px;
@@ -167,6 +183,7 @@ img{
 	border-top: 1px, solid;
 	padding-top: 20px;
 	border-bottom: 1px solid gray;
+	padding-bottom:80px;
 
 
 }
@@ -194,7 +211,8 @@ img{
 
 .applications{
 
-	margin-top: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	background: url(../img/applications.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -249,6 +267,7 @@ img{
 }
 .about{
 	text-align: center;
+	font-size:1.2em;
 }
 	
 
@@ -261,6 +280,10 @@ img{
 .about p{
 	font-weight:lighter;
 	font-style:italic;
+	font-size:1.2em;
+	line-height:1.8em;
+	color: gray;
+	padding-bottom:40px;
 	
 }
 
@@ -290,6 +313,7 @@ img{
 	width:45%;
 	vertical-align: top;
 	padding-right:2%;
+	margin-right:2%;
 }
 
 .challenge{
@@ -297,12 +321,14 @@ img{
 	width:45%;
 	vertical-align: top;
 	padding-right:2%;
+	margin-right:2%;
 }
 footer{
 	
 	background-color: #ff6c00;
 	display:block;
 	text-align:center;
+	margin-top:40px;
 }
  
 
@@ -311,6 +337,7 @@ footer ul{
 	color: white;
 	list-style:none;
 	display:block;
+	padding:0;
 }
 
 footer li{
